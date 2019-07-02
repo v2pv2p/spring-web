@@ -11,9 +11,16 @@ public class SampleController {
 	public String sample() {
 		return "sample/main";
 	}
+
 	
 	@RequestMapping("/master.do")
 	public String master() {
 		return "master";
 	}
+
+	@RequestMapping("/bugfix.do")
+	public String bugfix() {
+		return "bugfix";
+	}
+	
 }
